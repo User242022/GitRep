@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        batch 'Program.cs'
+        bat 'Program.cs'
       }
     }
   }
