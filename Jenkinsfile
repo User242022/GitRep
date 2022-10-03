@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        bat 'Program.cs'
+        bat 'Program.java'
       }
     }
   }
