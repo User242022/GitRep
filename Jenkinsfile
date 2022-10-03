@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        bat 'run_build_Program.java'
+        bat 'Program.java'
       }
     }
   }
